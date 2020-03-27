@@ -12,6 +12,7 @@ class List extends Component {
         }
 
         this.addMovie = this.addMovie.bind(this)
+        this.deleteMovie = this.deleteMovie.bind(this)
     }
 
     addMovie(title, year, posterImg){
